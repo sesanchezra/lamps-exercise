@@ -1,0 +1,46 @@
+.lamps{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid grey;
+}
+
+.lamps-global{
+  border:1px solid green;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lamp-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:30;
+  padding: 10px;
+}
+
+.lamp{
+  width: 80px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+.off{
+  background-color: yellow;
+}
+
+.on{
+  background-color: grey;
+}
+
+.button-lamp{
+  margin: 15px;
+}
+
+button{
+  font-size: 16px;
+  
+}
